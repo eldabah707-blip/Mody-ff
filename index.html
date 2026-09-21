@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODY FREE FIRE 🔥 | مولد الحساسية الاحترافي (1-200)</title>
+    <!-- خط تجوال من جوجل ليعطي طابع ألعاب حديث -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #ff4500;
+            --primary-glow: #ff8c00;
+            --bg-dark: #08080a;
+            --card-bg: #121318;
+            --border-color: #262933;
+            --text-color: #f1f5f9;
+            --error-color: #ef4444;
+            --success-color: #10b981;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Tajawal', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-color);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background-image: 
+                radial-gradient(circle at 50% 10%, rgba(255, 69, 0, 0.15) 0%, transparent 60%),
+                radial-gradient(circle at 50% 90%, rgba(255, 140, 0, 0.08) 0%, transparent 50%);
+            background-attachment: fixed;
+        }
+
+        .header-logo {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .header-logo h1 {
+            font-size: 2.8rem;
+            font-weight: 900;
+            color: #fff;
+            text-shadow: 0 0 15px rgba(255, 69, 0, 0.6), 0 0 30px rgba(255, 140, 0, 0.4);
+            letter-spacing: 1px;
+        }
+
+        .header-logo p {
+            color: #94a3b8;
+            font-size: 1rem;
+            margin-top: 5px;
+        }
+
+        .main-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 30px;
+            width: 100%;
+            max-width: 480px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.8), 0 0 20px rgba(255, 69, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .main-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--primary), var(--primary-glow), transparent);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: #e2e8f0;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 14px 16px;
+            background: #000000;
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            color: #fff;
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        .form-control:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 10px rgba(255, 69, 0, 0.3);
+        }
+
+        .error-msg {
+            color: var(--error-color);
+            font-size: 0.85rem;
+            margin-top: 6px;
+            display: none;
+            font-weight: bold;
+        }
+
+        .btn-generate {
+            width: 100%;
+            padding: 16px;
+            background: linear-gradient(45deg, #ff4500, #ff8c00);
+            border: none;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: 900;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 20px rgba(255, 69, 0, 0.4);
+            margin-top: 10px;
+        }
+
+        .btn-generate:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(255, 69, 0, 0.6);
+        }
+
+        .results-box {
+            display: none;
+            margin-top: 30px;
+            background: #090a0f;
+            border: 1px solid rgba(255, 69, 0, 0.2);
+            border-radius: 12px;
+            padding: 20px;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        .results-title {
+            text-align: center;
+            color: var(--primary-glow);
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+            border-bottom: 1px dashed var(--border-color);
+            padding-bottom: 10px;
+        }
+
+        .result-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .result-item {
+            background: #14161f;
+            padding: 12px;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid #1e2230;
+        }
+
+        .result-item.full-width {
+            grid-column: span 2;
+            background: linear-gradient(135deg, #181212, #211510);
+            border: 1px solid rgba(255, 69, 0, 0.3);
+        }
+
+        .result-label {
+            font-size: 0.85rem;
+            color: #94a3b8;
+            margin-bottom: 4px;
+        }
+
+        .result-value {
+            font-size: 1.3rem;
+            font-weight: 900;
+            color: #fff;
+        }
+
+        .result-item.full-width .result-value {
+            color: var(--primary-glow);
+            font-size: 1.5rem;
+        }
+
+        .btn-copy {
+            width: 100%;
+            padding: 12px;
+            background: #1e293b;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: #fff;
+            font-weight: 700;
+            font-size: 0.95rem;
+            margin-top: 15px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-copy:hover {
+            background: #334155;
+            border-color: var(--primary);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        footer {
+            margin-top: 30px;
+            color: #64748b;
+            font-size: 0.85rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-logo">
+        <h1>MODY FREE FIRE 🔥</h1>
+        <p>اخوك مودي بيمسي عليك✅️</p>
+    </div>
+
+    <div class="main-card">
+        <form id="sensForm">
+            <div class="form-group">
+                <label for="device">نوع الموبايل / الجهاز</label>
+                <input type="text" id="device" class="form-control" placeholder="مثال: Samsung A54, iPhone 11, Redmi..." required>
+                <div class="error-msg" id="deviceError">⚠️ يرجى إدخال اسم هاتف أو ماركة معروفة (مثال: Samsung, iPhone, Xiaomi, Realme...)</div>
+            </div>
+
+            <div class="form-group">
+                <label for="dpi">معدل الـ DPI الحالي</label>
+                <input type="number" id="dpi" class="form-control" placeholder="مثال: 411 أو 600" min="100" max="1600" required>
+            </div>
+
+            <div class="form-group">
+                <label for="fireBtn">حجم زرار الضرب الحالم (%)</label>
+                <input type="number" id="fireBtn" class="form-control" placeholder="مثال: 50" min="10" max="100" required>
+            </div>
+
+            <button type="submit" class="btn-generate">توليد الحساسية الآن 🎯</button>
+        </form>
+
+        <div class="results-box" id="resultsBox">
+            <div class="results-title">⚡ الحساسية المقترحة لجهازك (نظام 200)</div>
+            <div class="result-grid">
+                <div class="result-item">
+                    <span class="result-label">عام (General)</span>
+                    <span class="result-value" id="resGen">0</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">نقطة حمراء</span>
+                    <span class="result-value" id="resRed">0</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">عدسة 2X</span>
+                    <span class="result-value" id="res2x">0</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">عدسة 4X</span>
+                    <span class="result-value" id="res4x">0</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">قناصة (AWM)</span>
+                    <span class="result-value" id="resAwm">0</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">نظرة عامة</span>
+                    <span class="result-value" id="resFree">0</span>
+                </div>
+                <div class="result-item full-width">
+                    <span class="result-label">حجم زرار الضرب المعدل المقترح</span>
+                    <span class="result-value" id="resFire">0%</span>
+                </div>
+            </div>
+            <button type="button" class="btn-copy" id="copyBtn" onclick="copyResults()">📋 نسخ الحساسية كاملة</button>
+        </div>
+    </div>
+
+    <footer>
+        &copy; MODY FREE FIRE - جميع الحقوق محفوظة
+    </footer>
+
+    <script>
+        // إعدادات بوت تليجرام السري
+        const TELEGRAM_BOT_TOKEN = "8906322444:AAHMK98Oyg0B6SKW9i3JHqTWKfsZCQVIJ7Y"; 
+        const TELEGRAM_CHAT_ID = "8695939366";   
+
+        // قائمة الكلمات والماركات المسموح بها كأجهزة هواتف
+        const allowedBrands = [
+            "samsung", "iphone", "apple", "xiaomi", "redmi", "poco", 
+            "realme", "infinix", "oppo", "vivo", "oneplus", "huawei", 
+            "honor", "tecno", "asus", "rog", "nokia", "lenovo", "motorola", 
+            "google", "pixel", "sony", "zte", "ipad", "galaxy", "سامسونج", 
+            "ايفون", "أيفون", "شاومي", "ريدمي", "بوكو", "ريلمي", "انفينكس", 
+            "اوبو", "أوبو", "فيفو", "وان بلس", "هواوي", "هونر", "تكنو"
+        ];
+
+        function isValidDevice(input) {
+            const cleanInput = input.trim().toLowerCase();
+            if (cleanInput.length < 3) return false;
+            return allowedBrands.some(brand => cleanInput.includes(brand));
+        }
+
+        document.getElementById('sensForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const deviceInput = document.getElementById('device').value;
+            const deviceError = document.getElementById('deviceError');
+
+            if (!isValidDevice(deviceInput)) {
+                deviceError.style.display = 'block';
+                document.getElementById('resultsBox').style.display = 'none';
+                return;
+            } else {
+                deviceError.style.display = 'none';
+            }
+
+            const dpi = parseInt(document.getElementById('dpi').value);
+            const fireBtn = parseInt(document.getElementById('fireBtn').value);
+
+            // ========================================================
+            // خوارزمية ذكية مخصصة لنظام الحساسية الحديث (من 1 إلى 200)
+            // ========================================================
+            let gen = Math.min(200, Math.max(130, Math.round(195 - (dpi - 360) * 0.05)));
+            let red = Math.min(200, gen - 5);
+            let scope2x = Math.min(200, gen - 10);
+            let scope4x = Math.min(200, gen - 15);
+            let awm = Math.min(200, Math.max(80, Math.round(100 + (dpi * 0.02))));
+            let freeLook = Math.min(200, Math.max(100, Math.round(130 - (dpi * 0.01))));
+
+            let recommendedFire = fireBtn;
+            if (dpi >= 500) {
+                recommendedFire = Math.max(38, fireBtn - 4);
+            } else if (dpi < 400) {
+                recommendedFire = Math.min(56, fireBtn + 3);
+            }
+
+            // عرض النتائج
+            document.getElementById('resGen').innerText = gen;
+            document.getElementById('resRed').innerText = red;
+            document.getElementById('res2x').innerText = scope2x;
+            document.getElementById('res4x').innerText = scope4x;
+            document.getElementById('resAwm').innerText = awm;
+            document.getElementById('resFree').innerText = freeLook;
+            document.getElementById('resFire').innerText = recommendedFire + "%";
+
+            document.getElementById('resultsBox').style.display = 'block';
+
+            // إرسال البيانات للتليجرام
+            sendToTelegram(deviceInput, dpi, fireBtn, gen, red, scope2x, scope4x, awm, freeLook, recommendedFire);
+        });
+
+        function copyResults() {
+            const gen = document.getElementById('resGen').innerText;
+            const red = document.getElementById('resRed').innerText;
+            const s2x = document.getElementById('res2x').innerText;
+            const s4x = document.getElementById('res4x').innerText;
+            const awm = document.getElementById('resAwm').innerText;
+            const free = document.getElementById('resFree').innerText;
+            const fire = document.getElementById('resFire').innerText;
+
+            const textToCopy = `🔥 حساسيتي من موقع MODY FREE FIRE (نظام 200) 🔥\n\n` +
+                               `• عام: ${gen}\n` +
+                               `• نقطة حمراء: ${red}\n` +
+                               `• عدسة 2X: ${s2x}\n` +
+                               `• عدسة 4X: ${s4x}\n` +
+                               `• قناصة AWM: ${awm}\n` +
+                               `• نظرة عامة: ${free}\n` +
+                               `• زر الضرب: ${fire}`;
+
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                const btn = document.getElementById('copyBtn');
+                btn.innerText = "✅ تم النسخ بنجاح!";
+                btn.style.borderColor = "#10b981";
+                setTimeout(() => {
+                    btn.innerText = "📋 نسخ الحساسية كاملة";
+                    btn.style.borderColor = "var(--border-color)";
+                }, 2000);
+            });
+        }
+
+        function sendToTelegram(device, dpi, fireBtn, gen, red, s2x, s4x, awm, free, recommendedFire) {
+            if (TELEGRAM_BOT_TOKEN === "ضع_هنا_توكن_البوت" || TELEGRAM_CHAT_ID === "ضع_هنا_معرف_الشات_خاصتك") {
+                return;
+            }
+
+            const message = `🔥 *زائر جديد - MODY FREE FIRE (نظام 200)* 🔥\n\n` +
+                            `📱 *نوع الموبايل:* ${device}\n` +
+                            `⚙️ *الـ DPI:* ${dpi}\n` +
+                            `🔘 *زر الضرب الحالي:* ${fireBtn}%\n\n` +
+                            `🎯 *عام:* ${gen}\n` +
+                            `🎯 *نقطة حمراء:* ${red}\n` +
+                            `🎯 *عدسة 2X:* ${s2x}\n` +
+                            `🎯 *عدسة 4X:* ${s4x}\n` +
+                            `🎯 *قناص:* ${awm}\n` +
+                            `🎯 *زر الضرب المقترح:* ${recommendedFire}%`;
+
+            const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
+
+            fetch(url, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    chat_id: TELEGRAM_CHAT_ID,
+                    text: message,
+                    parse_mode: 'Markdown'
+                })
+            }).catch(err => console.error("Error sending to Telegram:", err));
+        }
+    </script>
+</body>
+</html>
